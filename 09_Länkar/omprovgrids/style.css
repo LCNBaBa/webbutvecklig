@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+section{
+    margin: 3px;
+    background-color: pink;
+}
+
+body{
+    display: grid;
+    margin: 2px;
+    padding: 1px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "A   A   B"
+    "A   A   C"
+    "D   E   E"
+    ;
+}
+
+#A{
+    grid-area: A;
+    color: blue;
+}
+
+#B{
+    grid-area: B;
+    color: red;
+}
+
+#C{
+    grid-area: C;
+    color: yellow;
+}
+
+#D{
+    grid-area: D;
+    color: green;
+}
+
+#E{
+    grid-area: E;
+    color: purple;
+}
+

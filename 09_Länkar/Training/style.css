@@ -1,0 +1,74 @@
+section{
+    margin: 10px;
+}
+
+body{
+    display: grid;
+    margin: 0px;
+    padding: 1px;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:  
+    "N  G  G"
+    "M  G  G"
+    "W  W  A"
+    ;
+}
+
+#A{
+    grid-area: A;
+    background: url(img);
+    background-size: cover ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    margin: 20px;
+}
+
+body{
+    display: grid;
+    margin: 10px;
+    padding: 1px;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "A   A   A"
+    "B   B   B"
+    "C   C   C"
+    ;
+}
+
+#A{
+    grid-area: A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

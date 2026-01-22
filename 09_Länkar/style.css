@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+#historia{
+    color: white;
+    background: url(c394b8c3-b498-4430-aa6e-5a710dd12d3d.png);
+}
+
+#husmanskost{
+    background: url(nedladdning.jpg);
+    background-size: cover;
+}
+
+#Fakta{
+    color: white;
+    background: url(nedladdning.png);
+    background-size: cover;
+}
+
+#historia{
+    display: grid;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ".  .  .  .  .  ."
+    ".  .  .  .  .  ."
+    ;
+ }
+#fakta{
+    display: grid;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ".  .  .  .  .  ."
+    ".  .  .  .  .  ."
+    ;
+}
+
+#husmanskost{
+    display: grid;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ".  .  .  .  .  ."
+    ".  .  .  .  .  ."
+    ;
+}
+
+#A{
+    
+    grid-area: A;
+    
+}
+#B{
+    
+    grid-area: B;
+    
+}
+
+#C{
+    
+    grid-area: C;
+    
+}
+#D{
+  
+    grid-area: D;
+}
+    
+#E{
+    grid-area: E;
+   ;
+}
+
+#F{
+    
+    grid-area: F;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

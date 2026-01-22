@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(pexels-kevin-ku-577585.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+
+header{
+    background-color: rgb(105, 105, 105);
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+}
+
+header p{
+    flex: 1;
+    margin-left: 6px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+span{
+color: rgb(0,206,209);
+margin-top: 13px;
+margin-left: 6px;
+
+}
+
+nav{
+    margin-top: 16px;
+}
+
+nav a{
+    color: white;
+    background-color: rgb(105, 105, 105);
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    background-color: rgb(125, 121, 121);
+}
+
+
+section div{
+    margin-top: 200px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.a{
+    color: white;
+}
+
+#yf{
+    background: rgba(21, 21, 13, 0.8);
+    padding: 0px;
+    margin: 200px;
+}
+
+
+section div p{
+    color: white;
+    
+}
+
+
+#about{
+    height: 100vh;
+}
+
+#aboutt{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.c{
+    color: black;
+}
